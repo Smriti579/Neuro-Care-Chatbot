@@ -17,7 +17,6 @@ import gradio as gr
 import time
 
 # Set the API key as an environment variable
-os.environ["API_KEY"] = "AIzaSyCaSG2J5gGFqZcEBw0FDBLx4F7q2OD0RFo"  # Replace with your actual API key
 
 # Configure Gemini AI using the environment variable
 genai.configure(api_key=os.environ["API_KEY"])
